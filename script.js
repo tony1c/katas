@@ -9,7 +9,7 @@
 
 // Output: an object with two arrays of numbers, one for the odd ones, one for the even ones.
 
-console.log(splitOddAndEven([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+// console.log(splitOddAndEven([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
 
 ////////////////////////////////////////////////
 // Today's exercise
@@ -24,7 +24,7 @@ Input: a string.
 Output: an object with keys for the existing characters and values for how many times that character exists in the string.
 */
 
-console.log(countAmountOfEachCharacter('bee'));
+// console.log(countAmountOfEachCharacter('bee'));
 
 /*
 Write a function removeExclamationMarksFromEnd, that accepts one parameter: inputString, a valid string.
@@ -32,7 +32,7 @@ Write a function removeExclamationMarksFromEnd, that accepts one parameter: inpu
 The function should return a string. The string contains the inputString, but without an exclamation mark at the end.
 */
 
-console.log(removeExclamationMarksFromEnd('Hellooooo!!!!!!!!!!!!!'));
+// console.log(removeExclamationMarksFromEnd('Hellooooo!!!!!!!!!!!!!'));
 
 /*
 Today's exercise
@@ -46,4 +46,4 @@ Write a function correctMistakes, that accepts one parameter: inputString, a val
 The function should return a string. The string contains the inputString with the corrections.
 */
 
-console.log(correctMistakes('501BONO0O'));
+// console.log(correctMistakes('501BONO0O'));
