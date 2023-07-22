@@ -17,12 +17,8 @@ Input: a string.
 Output: a string.
 */
 
-function abbreviateName(name) {
-  return name
-    .split(' ')
-    .map((fChar) => fChar.toUpperCase()[0])
-    .join('.');
-}
+// console.log(abbreviateName("John Doe"));
+// J.D
 
-console.log(abbreviateName('John Doe'));
-console.log(abbreviateName('john doe'));
+// console.log(abbreviateName("john doe"));
+// J.D
