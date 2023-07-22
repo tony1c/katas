@@ -9,7 +9,25 @@
 
 // Output: an object with two arrays of numbers, one for the odd ones, one for the even ones.
 
-// console.log(splitOddAndEven([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+function splitOddAndEven(numbers) {
+  let odd = [];
+  let even = [];
+
+  for (let i = 0; i < numbers.length; i++) {
+    let number = numbers[i];
+
+    number % 2 === 0 ? even.push(number) : odd.push(number);
+  }
+
+  const returnedObject = {
+    even,
+    odd,
+  };
+
+  return returnedObject;
+}
+
+console.log(splitOddAndEven([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
 
 ////////////////////////////////////////////////
 // Today's exercise
@@ -24,7 +42,19 @@ Input: a string.
 Output: an object with keys for the existing characters and values for how many times that character exists in the string.
 */
 
-// console.log(countAmountOfEachCharacter('bee'));
+function countAmountOfEachCharacter(inputString) {
+  const object = {};
+
+  for (let i = 0; i < inputString.length; i++) {
+    const char = inputString[i];
+
+    object.hasOwnProperty(char) ? (object[char] += 1) : (object[char] = 1);
+  }
+
+  return object;
+}
+
+console.log(countAmountOfEachCharacter('mississippi'));
 
 /*
 Write a function removeExclamationMarksFromEnd, that accepts one parameter: inputString, a valid string.
@@ -32,7 +62,11 @@ Write a function removeExclamationMarksFromEnd, that accepts one parameter: inpu
 The function should return a string. The string contains the inputString, but without an exclamation mark at the end.
 */
 
-// console.log(removeExclamationMarksFromEnd('Hellooooo!!!!!!!!!!!!!'));
+function removeExclamationMarksFromEnd(inputString) {
+  return inputString.replace(/!+$/, '');
+}
+
+console.log(removeExclamationMarksFromEnd('Hellooooo!!!!!!!!!!!!!'));
 
 /*
 Today's exercise
@@ -46,4 +80,19 @@ Write a function correctMistakes, that accepts one parameter: inputString, a val
 The function should return a string. The string contains the inputString with the corrections.
 */
 
-// console.log(correctMistakes('501BONO0O'));
+function correctMistakes(inputString) {
+  const corrections = {
+    5: 'S',
+    0: 'O',
+    1: 'I',
+  };
+
+  return inputString
+    .split('')
+    .map((char) =>
+      corrections.hasOwnProperty(char) ? corrections[char] : char
+    )
+    .join('');
+}
+
+console.log(correctMistakes('501BONO0O'));
