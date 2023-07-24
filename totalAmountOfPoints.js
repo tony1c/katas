@@ -14,3 +14,9 @@ Input: an array of strings.
 
 Output: a number.
 */
+
+// console.log(calculateAmountOfPoints(["3:1", "2:2"]));
+// 4
+
+// console.log(calculateAmountOfPoints(["1:0", "2:0", "3:0", "4:0", "2:1"]));
+// 15
