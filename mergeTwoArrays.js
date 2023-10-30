@@ -17,6 +17,12 @@ Input: two arrays.
 Output: one array.
 */
 
+console.log(mergeArrays([9, 10, 11], ['a']));
+// [9, "a", 10, 11] ✅
+
+console.log(mergeArrays([1], ['a', 'b']));
+// [1, "a", "b"] ✅
+
 //////////////////////////////
 //////////////////////////////
 //////////////////////////////
@@ -40,10 +46,4 @@ function mergeArrays(a, b) {
   }
   return output;
 }
-
-console.log(mergeArrays([9, 10, 11], ['a']));
-// [9, "a", 10, 11] ✅
-
-console.log(mergeArrays([1], ['a', 'b']));
-// [1, "a", "b"] ✅
 */

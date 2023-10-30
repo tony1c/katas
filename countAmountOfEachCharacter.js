@@ -12,5 +12,5 @@ Input: a string.
 Output: an object with keys for the existing characters and values for how many times that character exists in the string.
 */
 
-// console.log(countAmountOfEachCharacter('bee'));
+console.log(countAmountOfEachCharacter('bee'));
 // { b: 1, e: 2 }

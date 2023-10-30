@@ -10,8 +10,8 @@ Input: a string.
 Output: a number.
 */
 
-// console.log(amountOfLowercaseLetters('aB1c'));
+console.log(amountOfLowercaseLetters('aB1c'));
 // 2 ✅
 
-// console.log(amountOfLowercaseLetters('123'));
+console.log(amountOfLowercaseLetters('123'));
 // 0 ✅

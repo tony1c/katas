@@ -16,9 +16,10 @@ Input: two numbers.
 Output: an array of numbers.
 */
 
-// console.log(paintLetterboxes(125, 132));
+console.log(paintLetterboxes(125, 132));
 // [ 1, 9, 6, 3, 0, 1, 1, 1, 1, 1 ] ✅
-// console.log(paintLetterboxes(2, 4));
+
+console.log(paintLetterboxes(2, 4));
 // [ 0, 0, 1, 1, 1, 0, 0, 0, 0, 0 ] ✅
 
 //////////////////////////////////////////////////////

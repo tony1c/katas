@@ -16,8 +16,8 @@ Input: a string.
 Output: a string with the corrections.
 */
 
-// console.log(correctMistakes("0h!"));
+console.log(correctMistakes('0h!'));
 // "Oh!"
 
-// console.log(correctMistakes('1 l0ve m1ss1ss1pp1🧶!'));
+console.log(correctMistakes('1 l0ve m1ss1ss1pp1🧶!'));
 // "I lOve mIssIssIppI🧶!"

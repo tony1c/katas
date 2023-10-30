@@ -19,8 +19,8 @@ Input: a number.
 Output: an array of numbers.
 */
 
-// console.log(everyPossibleSum(1234));
+console.log(everyPossibleSum(1234));
 // [ 3, 4, 5, 5, 6, 7 ] ✅
 
-// console.log(everyPossibleSum(81596));
+console.log(everyPossibleSum(81596));
 // [ 9, 13, 17, 14, 6, 10, 7, 14, 11, 15 ] ✅

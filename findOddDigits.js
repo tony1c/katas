@@ -21,6 +21,12 @@ Input: two numbers.
 Output: one number.
 */
 
+console.log(findOddDigits(123456789111, 5));
+// 13579 ✅
+
+console.log(findOddDigits(0, 100));
+// 0 ✅
+
 //////////////////////////////////////////////////
 //////////////////////////////////////////////////
 //////////////////////////////////////////////////
@@ -30,6 +36,7 @@ Output: one number.
 //////////////////////////////////////////////////
 //////////////////////////////////////////////////
 /*
+
 function findOddDigits(n, k) {
   const nArr = n
     .toString()
@@ -46,10 +53,4 @@ function findOddDigits(n, k) {
   }
   return 0;
 }
-
-console.log(findOddDigits(123456789111, 5));
-// 13579 ✅
-
-console.log(findOddDigits(0, 100));
-// 0 ✅
 */

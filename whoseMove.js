@@ -14,8 +14,8 @@ Input: two strings.
 Output: a string.
 */
 
-// console.log(whoseMove("white", true));
+console.log(whoseMove('white', true));
 // "white" ✅
 
-// console.log(whoseMove("black", false));
+console.log(whoseMove('black', false));
 // "white" ✅

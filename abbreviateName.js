@@ -17,8 +17,8 @@ Input: a string.
 Output: a string.
 */
 
-// console.log(abbreviateName("John Doe"));
+console.log(abbreviateName('John Doe'));
 // J.D
 
-// console.log(abbreviateName("john doe"));
+console.log(abbreviateName('john doe'));
 // J.D

@@ -14,5 +14,5 @@ Input: an array of strings.
 Output: a string.
 */
 
-// console.log(sortAndStar(["We", "solve", "Katas"]));
+console.log(sortAndStar(['We', 'solve', 'Katas']));
 // "K***a***t***a***s" ✅

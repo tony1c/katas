@@ -14,8 +14,8 @@ Input: a string.
 Output: a string.
 */
 
-// console.log(positionInAlphabet("a"));
+console.log(positionInAlphabet('a'));
 // 1 ✅
 
-// console.log(positionInAlphabet("Z"));
+console.log(positionInAlphabet('Z'));
 // 26  ✅

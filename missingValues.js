@@ -21,10 +21,10 @@ Input: an array of numbers.
 Output: a number.
 */
 
-// console.log(missingValues([1, 1, 1, 2, 2, 3]));
+console.log(missingValues([1, 1, 1, 2, 2, 3]));
 // 18 ✅
 
-// console.log(missingValues([6, 5, 4, 100, 6, 5, 4, 100, 6, 5, 4, 200]));
+console.log(missingValues([6, 5, 4, 100, 6, 5, 4, 100, 6, 5, 4, 200]));
 // 4000000 ✅
 
 ////////////////////////////////////////

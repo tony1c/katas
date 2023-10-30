@@ -14,5 +14,5 @@ Input: an array of strings.
 Output: a string.
 */
 
-// console.log(getStatusOfWellOfIdeas(['bad', 'good', 'bad']));
+console.log(getStatusOfWellOfIdeas(['bad', 'good', 'bad']));
 // "Publish!" ✅

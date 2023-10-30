@@ -11,8 +11,8 @@ Input: a string.
 Output: a string that has no exclamation mark at the end.
 */
 
-// console.log(removeExclamationMarksFromEnd("bee!!"));
+console.log(removeExclamationMarksFromEnd('bee!!'));
 // // "bee"
 
-// console.log(removeExclamationMarksFromEnd("Hey! Bee🧶!"));
+console.log(removeExclamationMarksFromEnd('Hey! Bee🧶!'));
 // // "Hey! Bee🧶!"

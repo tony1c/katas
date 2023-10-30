@@ -11,5 +11,5 @@ Input: a number (of sheep).
 Output: a string.
 */
 
-// console.log(countSheep(3));
+console.log(countSheep(3));
 // 1 sheep...2 sheep...3 sheep...

@@ -16,8 +16,8 @@ Input: a string.
 Output: a string.
 */
 
-// console.log(toFreud("Sigmund Freud"));
+console.log(toFreud('Sigmund Freud'));
 // "sex sex" ✅
 
-// console.log(toFreud(""));
+console.log(toFreud(''));
 // ""  ✅

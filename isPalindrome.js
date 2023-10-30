@@ -15,8 +15,8 @@ Input: a string.
 Output: a boolean.
 */
 
-// console.log(isPalindrome('Abba'));
+console.log(isPalindrome('Abba'));
 // true ✅
 
-// console.log(isPalindrome('hello'));
+console.log(isPalindrome('hello'));
 // false ✅

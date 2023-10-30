@@ -11,8 +11,8 @@ Input: a string and a number.
 Output: a string.
 */
 
-// console.log(splitInParts("HelloDev", 3));
+console.log(splitInParts('HelloDev', 3));
 // "Hel loD ev" ✅
 
-// console.log(splitInParts("HelloDev", 1));
+console.log(splitInParts('HelloDev', 1));
 // "H e l l o D e v" ✅

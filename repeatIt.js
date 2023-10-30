@@ -13,8 +13,8 @@ Input: a string and a number.
 Output: a string.
 */
 
-// console.log(repeatIt('Hi', 2));
+console.log(repeatIt('Hi', 2));
 // "HiHi" ✅
 
-// console.log(repeatIt(999, 1));
+console.log(repeatIt(999, 1));
 // "Not a string" ✅

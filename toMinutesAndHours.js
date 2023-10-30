@@ -17,8 +17,8 @@ Input: a number.
 Output: a string.
 */
 
-// console.log(toMinutesAndHours(3600));
+console.log(toMinutesAndHours(3600));
 // "1 hour(s) and 0 minute(s)" ✅
 
-// console.log(toMinutesAndHours(3601));
+console.log(toMinutesAndHours(3601));
 // "1 hour(s) and 0 minute(s)" ✅

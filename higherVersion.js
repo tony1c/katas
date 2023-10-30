@@ -11,8 +11,8 @@ Input: two strings.
 Output: a boolean.
 */
 
-// console.log(higherVersion('1.2.3', '1.2.0'));
+console.log(higherVersion('1.2.3', '1.2.0'));
 // true ✅
 
-// console.log(higherVersion('9', '10'));
+console.log(higherVersion('9', '10'));
 // false ✅

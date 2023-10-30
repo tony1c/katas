@@ -17,7 +17,7 @@ Input: two numbers.
 Output: an array of array(s).
 */
 
-// console.log(drawChessboard(3, 3));
+console.log(drawChessboard(3, 3));
 /*
 [
   [ "O", "X", "O" ],
@@ -27,7 +27,7 @@ Output: an array of array(s).
 */
 // ✅
 
-// console.log(drawChessboard(2, 4));
+console.log(drawChessboard(2, 4));
 /*
 [
   [ "O", "X", "O", "X" ],

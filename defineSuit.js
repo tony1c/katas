@@ -11,8 +11,8 @@ Input: a string (a card).
 Output: a string (the card's suit)
 */
 
-// console.log(defineSuit('3♣'));
+console.log(defineSuit('3♣'));
 // clubs ✅
 
-// console.log(defineSuit('Q♠'));
+console.log(defineSuit('Q♠'));
 // spades ✅
