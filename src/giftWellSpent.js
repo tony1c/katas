@@ -19,25 +19,10 @@ Input: a number and an array of numbers.
 Output: an array of numbers.
 */
 
+module.exports = buy;
+
 console.log(buy(5, [5, 2, 3, 4, 5]));
 // [1, 2] ✅
 
 console.log(buy(3, [1, 1]));
 // null ✅
-
-///////////////////////////////////////
-///////////////////////////////////////
-///////////////////////////////////////
-///////////////////////////////////////
-///////////////////////////////////////
-///////////////////////////////////////
-
-// function buy(giftCard, prices) {
-//   if (prices.length < 1) return null;
-//   for (let i = 0; i < prices.length; i++) {
-//     for (let j = i + 1; j < prices.length; j++) {
-//       if (prices[i] + prices[j] === giftCard) return [i, j];
-//     }
-//   }
-//   return null;
-// }

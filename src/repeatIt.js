@@ -13,6 +13,8 @@ Input: a string and a number.
 Output: a string.
 */
 
+module.exports = repeatIt;
+
 console.log(repeatIt('Hi', 2));
 // "HiHi" ✅
 

@@ -27,26 +27,3 @@ Output: an array of numbers.
 module.exports = coinCombo;
 
 console.log(coinCombo(51));
-
-////////////////////////////////////
-////////////////////////////////////
-////////////////////////////////////
-////////////////////////////////////
-////////////////////////////////////
-////////////////////////////////////
-
-// function coinCombo(cents) {
-//   const coins = [1, 5, 10, 25];
-//   let remaining = cents;
-//   let output = Array(coins.length).fill(0);
-
-//   for (let i = coins.length - 1; i >= 0; i--) {
-//     while (remaining >= coins[i]) {
-//       let reminder = remaining % coins[i];
-//       const increaseBy = (remaining - reminder) / coins[i];
-//       remaining = remaining % coins[i];
-//       output[i] += increaseBy;
-//     }
-//   }
-//   return output;
-// }

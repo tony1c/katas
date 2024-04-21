@@ -18,15 +18,3 @@ console.log(splitInParts('HelloDev', 3));
 
 console.log(splitInParts('HelloDev', 1));
 // "H e l l o D e v" ✅
-
-///////////////////////
-//////////////////////
-// function splitInParts(str, partLength) {
-//     if (str.length <= partLength) return str;
-
-//     let output = '';
-//     for (let i = 0; i < str.length; i += partLength) {
-//         output += str.substring(i, i + partLength) + ' ';
-//     }
-//     return output.slice(0, -1);
-// }

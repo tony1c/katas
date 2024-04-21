@@ -15,9 +15,3 @@ module.exports = countSheep;
 
 console.log(countSheep(3));
 // 1 sheep...2 sheep...3 sheep...
-
-// function countSheep(sheeps) {
-//     return Array.from({ length: sheeps }, (_, i) => `${i + 1} sheep...`).join(
-//         ''
-//     );
-// }

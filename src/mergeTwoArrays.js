@@ -17,33 +17,10 @@ Input: two arrays.
 Output: one array.
 */
 
+module.exports = mergeArrays;
+
 console.log(mergeArrays([9, 10, 11], ['a']));
 // [9, "a", 10, 11] ✅
 
 console.log(mergeArrays([1], ['a', 'b']));
 // [1, "a", "b"] ✅
-
-//////////////////////////////
-//////////////////////////////
-//////////////////////////////
-//////////////////////////////
-//////////////////////////////
-//////////////////////////////
-
-/*
-function mergeArrays(a, b) {
-  const output = [];
-
-  const maxLength = Math.max(a.length, b.length);
-
-  for (let i = 0; i < maxLength; i++) {
-    if (i < a.length) {
-      output.push(a[i]);
-    }
-    if (i < b.length) {
-      output.push(b[i]);
-    }
-  }
-  return output;
-}
-*/

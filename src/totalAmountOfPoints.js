@@ -15,17 +15,6 @@ Input: an array of strings.
 Output: a number.
 */
 
-// function calculateAmountOfPoints(games) {
-//     let points = 0;
-//     for (const game of games) {
-//         const [x, y] = game.split(':');
-
-//         if (x > y) points += 3;
-//         if (x === y) points += 1;
-//     }
-//     return points;
-// }
-
 module.exports = calculateAmountOfPoints;
 
 console.log(calculateAmountOfPoints(['3:1', '2:2']));

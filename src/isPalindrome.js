@@ -15,11 +15,10 @@ Input: a string.
 Output: a boolean.
 */
 
+module.exports = isPalindrome;
+
 console.log(isPalindrome('Abba'));
 // true ✅
 
 console.log(isPalindrome('hello'));
 // false ✅
-
-// Export the isPalindrome function
-module.exports = isPalindrome;

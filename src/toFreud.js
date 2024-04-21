@@ -16,20 +16,6 @@ Input: a string.
 Output: a string.
 */
 
-// function toFreud(str) {
-//     if (str === undefined) return '';
-//     const strArr = str.split(' ');
-//     return strArr
-//         .map((word) => {
-//             if (word !== '') {
-//                 return word.replace(word, 'sex');
-//             }
-//             return '';
-//         })
-//         .filter((str) => str !== '')
-//         .join(' ');
-// }
-
 module.exports = toFreud;
 
 console.log(toFreud('Sigmund Freud'));

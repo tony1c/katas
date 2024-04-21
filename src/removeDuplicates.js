@@ -10,6 +10,8 @@ Input: a numbers array.
 Output: a numbers array.
 */
 
+module.exports = removeDuplicates;
+
 console.log(removeDuplicates([1, 1, 2]));
 // [ 1, 2 ] ✅
 
