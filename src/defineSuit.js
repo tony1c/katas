@@ -9,6 +9,16 @@ Given a card string, e.g. "3♣", return a string with the term for the card's s
 Input: a string (a card).
 
 Output: a string (the card's suit)
+
+// Suits object 
+
+const suits = {
+  '♣': 'clubs',
+  '♠': 'spades',
+  '♡': 'hearts',
+  '♢': 'diamonds',
+};
+
 */
 
 module.exports = defineSuit;
