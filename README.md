@@ -24,6 +24,16 @@ The `katas` folder is organized into subfolders, each containing a set of relate
 - A description of the kata and their objectives in each JavaScript file
 - Test files to help you verify your solutions
 
+## Running Tests
+
+To run the tests for each kata file, you can use Jest by running the following command:
+
+\`\`\`bash
+npx jest filename.test.js
+\`\`\`
+
+Replace `filename.test.js` with the actual test file name you want to run.
+
 ## Contributing
 
 If you would like to contribute to this repository by adding new katas or improving existing ones, please feel free to submit a pull request. Contributions are always welcome!
