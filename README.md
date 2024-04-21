@@ -28,9 +28,9 @@ The `katas` folder is organized into subfolders, each containing a set of relate
 
 To run the tests for each kata file, you can use Jest by running the following command:
 
-\`\`\`bash
+```
 npx jest filename.test.js
-\`\`\`
+```
 
 Replace `filename.test.js` with the actual test file name you want to run.
 
