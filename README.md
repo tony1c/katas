@@ -10,9 +10,9 @@ Katas are small coding exercises that focus on improving specific skills or tech
 
 To get started with the katas, simply clone this repository to your local machine:
 
-\`\`\`bash
+```bash
 git clone https://github.com/tony1c/katas.git
-\`\`\`
+```
 
 Once you have cloned the repository, navigate to the `katas/src` folder and start working on the katas by opening them in your favorite code editor.
 
