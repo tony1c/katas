@@ -18,7 +18,6 @@ const suits = {
   '♡': 'hearts',
   '♢': 'diamonds',
 };
-
 */
 
 module.exports = defineSuit;
